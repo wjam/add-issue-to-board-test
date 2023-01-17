@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
-      - uses: alex-page/github-project-automation-plus@v0.8.1
+      - uses: alex-page/github-project-automation-plus@v0.8.2
         with:
-          project: Main
+          project: TODO
           column: Todo
           repo-token: ${{ secrets.GITHUB_TOKEN }}
